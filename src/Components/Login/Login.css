@@ -1,0 +1,12 @@
+/*Espacios entre cada elemento del formulario*/
+.form-control{
+    margin-bottom: 1rem;
+}
+/*Disposicion para el formulario, que sea flex para que pueda quedar centrado horizontal y verticalmente*/
+.formulario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: calc(100vh - 70px);
+}
+

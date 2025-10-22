@@ -1,0 +1,33 @@
+/*Contenedor principal de todos los componentes de error*/
+.error{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    justify-items: center;
+     height: calc(100vh - 70px);
+     flex-direction: column;
+}
+
+/*Texto de error*/
+h1{
+    font-size: 8rem;
+    
+}
+/*Palabra OOPS*/
+.oops{
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ee0b0b;
+}
+/*Imagen con movimiento*/
+.gif{
+    margin-top: 10rem;
+width: 250px;
+margin-bottom: 3rem;
+}
+/*Mensaje de error*/
+.mensaje{
+    font-size: 1.5rem;
+    margin-top: 1rem;
+}   
