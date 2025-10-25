@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+*{
+    text-align: center;
+}
+.title{
+    margin-top: 1rem;
+}
+.desc{
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+   
+}
+.fecha{
+  display: flex;
+  text-align: center;
+  margin-bottom: 10px;
+  justify-content: center;
+  margin-top: 1rem;
+}
+.formularioo{
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    
+}
+.tabla{
+    margin:20% ;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    text-align: center;
+}
+.titulo{
+    margin-left: 1rem;
+}
+.fechas {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.5rem;
+}
+.buton{
+    height: 2rem;
+}
+hr{
+    margin: auto;
+    width: 10rem;
+}
+h1{
+    font-family: "Roboto",sans-serif;
+}
+.tituloo{
+    font-size: 2rem;
+}
+.bar{
+    
+    margin: auto;
+    align-items: center;
+    justify-content: center;
+    justify-items: center;
+    text-align: center;
+}
+.graph{
+    
+
+    
+    margin-bottom: 5rem;
+    box-shadow: 1px 5px 8px 1px rgb(175, 175, 175);
+    border-radius: 1.5rem;
+
+}
+.graficos{
+    justify-content: center;
+}
+.tabletitle{
+    margin-top: 1rem;
+    font-size: 1.2rem;
+    font-family: "Roboto", sans-serif; ;
+}

@@ -1,0 +1,30 @@
+*{
+    --primary-color:#ff3410;
+}
+.logo{
+    width: 70px;
+}
+
+.menu{
+    display: flex;
+    max-width: 100%;
+    box-shadow: 1px 5px 8px -1px rgb(197, 196, 196);
+    height: 5rem;
+    
+}
+.dist{
+display: flex;
+
+
+width: calc(100% - 7rem);}
+.iconos{
+    text-align: center;
+    margin-top: 1rem;
+    margin-left: 100%; 
+    
+}
+.naveg{
+    
+    width: 100%;
+   
+}

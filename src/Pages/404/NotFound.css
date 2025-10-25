@@ -5,7 +5,7 @@
     align-items: center;
     text-align: center;
     justify-items: center;
-     height: calc(100vh - 70px);
+     height: calc(100vh - 10rem);
      flex-direction: column;
 }
 
