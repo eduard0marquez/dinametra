@@ -1,16 +1,9 @@
-# React + Vite
+Front end DINAMETRA
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
-
-## React Compiler
-
-The React Compiler is currently not compatible with SWC. See [this issue](https://github.com/vitejs/vite-plugin-react/issues/428) for tracking the progress.
-
-## Expanding the ESLint configuration
-
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Es un proyecto creado para poder visualizar los objetos cercanos a la tierra por medio de una conexion a una API de la nasa
+Las graficas muestran el diametro de los objetos y si son o no potencialmente peligrosos para la tierra
+Cuenta con un Login el cual por ahora no esta conecado a algun backend aunque guarda una variable local para ingresar al sistema y un tablero inicial en el cual se pueden realizar las consultas antes mencionadas y el cierre de sesion 
+El diseño es responsivo y se hicieron algunas decuaciones para la accesibilidad como colocacion de titulos y descripciones en campos como en el caso del formulario de inicio de sesion 
+Se utilizaron librerias como bootstrap (diseño y modelado) , react-router-dom (rutas protegidas),charJS (graficas),Sweet alert (alertas),react-hook-form (facil control entre el form y las consultas )
+Se utilizo la biblioteca de REACT
+el deploy esta hecho en vercel 
